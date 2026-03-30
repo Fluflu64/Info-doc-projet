@@ -24,3 +24,16 @@
 - template (faut faire un template complet)
 - sous-template (au moins deux)
 - meta data dans fichier yml
+
+# note :
+https://www.youtube.com/@sora_sakurai_en/videos
+
+jeux ou il à aidé le dévelepement de manière consequente :
+- Earthbound
+- Pokemon stadium
+- Pokemon rouge vert bleu
+- Pokemon or argent cristal
+- Super Smash bros (64)
+- peut être Pokemon Rubie Saphire Emeraude
+- Kirby 64
+- peut être beaucoup d'autre kirby si ce n'es tous
