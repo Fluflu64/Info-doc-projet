@@ -1,0 +1,54 @@
+@font-face
+{
+  font-family: openSans;
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+body {
+  font-family: openSans;
+  background-color: #333;
+  background-image: url(../assets/img_banner.png);
+  background-repeat: no-repeat;
+  background-attachment: auto; 
+  background-size: 100% 100%;
+}
+
+h1{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: medium;
+  
+}
+
+.langs{
+  margin: auto;
+  padding-bottom: 0.5cm;
+}
+
+a{
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+  
+a:hover {
+  background-color: #777777;
+}
+
+a.active{
+  background-color: #3e3e3e;
+  margin-bottom: 0.2cm;
+}
+
+
+
