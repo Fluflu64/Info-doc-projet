@@ -25,8 +25,11 @@
 - sous-template (au moins deux)
 - meta data dans fichier yml
 
+pandoc -f commonmark -t html -s --template iwatemplate.html --metadata pagetitle="test" --metadata lang="fr" README.md -o test6.html
+
 # note :
 https://www.youtube.com/@sora_sakurai_en/videos
+https://iwataasks.nintendo.com/
 
 jeux ou il à aidé le dévelepement de manière consequente :
 - Earthbound
@@ -37,3 +40,6 @@ jeux ou il à aidé le dévelepement de manière consequente :
 - peut être Pokemon Rubie Saphire Emeraude
 - Kirby 64
 - peut être beaucoup d'autre kirby si ce n'es tous
+
+le boug aide les programmeur comme ça no problemo
+
