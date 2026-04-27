@@ -4,7 +4,6 @@
   src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-
 body {
   font-family: openSans;
   background-color: #333;
@@ -19,7 +18,6 @@ h1{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: medium;
   
@@ -29,6 +27,7 @@ h1{
   margin: auto;
   padding-bottom: 0.5cm;
 }
+
 
 a{
   float: right;
@@ -50,5 +49,24 @@ a.active{
   margin-bottom: 0.2cm;
 }
 
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ width:100%;
+ }
 
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+}
 
+ul li a {
+ display:block;
+ float:right;
+ width:100px;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ }
