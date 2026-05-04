@@ -6,7 +6,6 @@
 
 body {
   font-family: openSans;
-  background-color: #333;
   background-image: url(../assets/img_banner.png);
   background-repeat: no-repeat;
   background-attachment: auto; 
@@ -19,7 +18,7 @@ h1{
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
-  font-size: medium;
+  font-size: x-large;
   
 }
 
@@ -54,19 +53,21 @@ ul {
  margin:0;
  list-style-type:none;
  width:100%;
- }
+ background-color: aqua;
+}
 
 li {
  margin-left:2px;
- float:left; /*pour IE*/
+ float:right; /*pour IE*/
 }
 
 ul li a {
  display:block;
- float:right;
+ float:left;
  width:100px;
  text-decoration:none;
  text-align:center;
  padding:5px;
  border:2px solid;
+ font-size: larger;
  }
