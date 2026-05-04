@@ -25,11 +25,10 @@
 - sous-template (au moins deux)
 - meta data dans fichier yml
 
-pandoc -f commonmark -t html -s --template iwatemplate.html --metadata pagetitle="test" --metadata lang="fr" README.md -o test6.html
+# **note** :
 
-# note :
-https://www.youtube.com/@sora_sakurai_en/videos
-https://iwataasks.nintendo.com/
+- [Chaine Youtube de Sakurai](https://www.youtube.com/@sora_sakurai_en/videos)
+- [Iwata asks](https://iwataasks.nintendo.com/)
 
 jeux ou il à aidé le dévelepement de manière consequente :
 - Earthbound
@@ -42,4 +41,19 @@ jeux ou il à aidé le dévelepement de manière consequente :
 - peut être beaucoup d'autre kirby si ce n'es tous
 
 le boug aide les programmeur comme ça no problemo
+
+
+# **Mémo** :
+## commande pour les page :
+`
+pandoc -f commonmark -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml README.md -o HTML/testn.html
+`
+## commande pour la bannière en haut :
+`
+pandoc -f commonmark -t html -s --template HTML/banner_head_template.html --metadata-file Metadata/metadata.yml MarkDown/banner_head.md -o HTML/banner_head.html
+`
+## commande pour la bannière en bas :
+`
+pandoc -f commonmark -t html -s --template HTML/banner_foot_template.html --metadata-file Metadata/metadata.yml MarkDown/banner_foot.md -o HTML/banner_foot.html
+`
 
