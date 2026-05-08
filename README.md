@@ -46,14 +46,14 @@ le boug aide les programmeur comme ça no problemo
 # **Mémo** :
 ## commande pour les page :
 `
-pandoc -f commonmark -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml README.md -o HTML/testn.html
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml README.md -o HTML/testn.html
 `
 ## commande pour la bannière en haut :
 `
-pandoc -f commonmark -t html -s --template HTML/banner_head_template.html --metadata-file Metadata/metadata.yml MarkDown/banner_head.md -o HTML/banner_head.html
+pandoc -f markdown -t html -s --template HTML/banner_head_template.html --metadata-file Metadata/metadata.yml MarkDown/banner_head.md -o HTML/banner_head.html
 `
 ## commande pour la bannière en bas :
 `
-pandoc -f commonmark -t html -s --template HTML/banner_foot_template.html --metadata-file Metadata/metadata.yml MarkDown/banner_foot.md -o HTML/banner_foot.html
+pandoc -f markdown -t html -s --template HTML/banner_foot_template.html --metadata-file Metadata/metadata.yml MarkDown/banner_foot.md -o HTML/banner_foot.html
 `
 
