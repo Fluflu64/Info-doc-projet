@@ -49,6 +49,12 @@ le boug aide les programmeur comme ça no problemo
 ## commande pour les page :
 `
 pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml README.md -o HTML/testn.html
+
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/acceuil.md -o HTML/Acceuil.html
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/pokmon.md -o HTML/Pokémon.html
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/poyo.md -o HTML/Kirby.html
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/autre.md -o HTML/Autre.html
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/source.md -o HTML/Source.html
 `
 ## commande pour la bannière en haut :
 `
