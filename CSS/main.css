@@ -1,6 +1,7 @@
 body{
   padding-top: 5%;
   background: 100% 100% fixed url(../Images/SatoruMiiwata_background.png);
+  margin-right: 10em;
 }
 
 /* Style the navigation bar */
@@ -37,4 +38,17 @@ body{
 
 a{
   color:white;
+  text-decoration: none;
+}
+
+h1{
+  color: #f7acbb;
+}
+
+h2{
+  color: #fc7d99;
+} 
+
+h3{
+  color: #fd567a;
 }
