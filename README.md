@@ -6,31 +6,27 @@
 - faut mettre un tablal
 - faires des listes
 
-# **CSS** :
-
+# **CSS**
 - utilisé les classes les id et les selecteurs contextuels
 - usages des prop de listes
 - bidouiller le textes et les paulisses dékritures
 - bidouiller les tablals
 - le resultat doit etre jolie
 
-# **MD** : 
-
+# **MD**
 - source des pages markdown fournie (quoi que ça veuille dire)
 - faut savoir utiliser MD
 
-# **Pandoc** :
-
+# **Pandoc**
 - template (faut faire un template complet)
 - sous-template (au moins deux)
 - meta data dans fichier yml
 
-# **note** :
-
+# **note**
 - [Chaine Youtube de Sakurai](https://www.youtube.com/@sora_sakurai_en/videos)
 - [Iwata asks](https://iwataasks.nintendo.com/)
 
-jeux ou il à aidé le dévelepement de manière consequente :
+# **jeux ou il à aidé le dévelepement de manière consequente**
 - Earthbound
 - Pokemon stadium
 - Pokemon rouge vert bleu
@@ -43,7 +39,7 @@ jeux ou il à aidé le dévelepement de manière consequente :
 le boug aide les programmeur comme ça no problemo
 
 
-# **Mémo** :
+# **Mémo**
 ## commande pour les page :
 `
 pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml README.md -o HTML/testn.html

@@ -10,7 +10,6 @@
 
 <body>
 
-    $banner_head()$
 
     $for(include-before)$
     $include-before$
@@ -37,12 +36,17 @@
     $table-of-contents$
     </nav>
     $endif$
+
+    $banner_head()$
+
     $body$
+
+    $banner_foot()$
+
     $for(include-after)$
     $include-after$
     $endfor$
 
-    $banner_foot()$
 
 </body>
 
