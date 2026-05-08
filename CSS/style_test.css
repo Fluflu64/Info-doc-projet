@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: rgb(54, 0, 0);
+    background: fixed url(../Images/SatoruMiiwata_background.png);
     color: white;
     font-family: sans-serif;
     padding: 0%;
@@ -17,27 +17,34 @@ body{
     top: 0%;
     left: 0%;
     position:fixed;
-    background-color: black;
+    background-image: url(../assets/banner_Iwata.png);
     height: 10%;
     width: 100%;
-
 }
 
 .footer{
     top: 90%;
     left: 0%;
     position:fixed;
-    background-color: black;
+    background-image: url(../assets/banner_Iwata.png);
     height: 100%;
     width: 100%;
-
 }
 
 
+.header strong{
+    font-size: xx-large;
+}
+
+
+
 .header li ,.footer li{
-    float: left;
+    float: right;
     margin: 1em;
     justify-self: center;
+    list-style-type: none;
+    font-size: larger;
+
 }
 
 .header li a ,.footer li a{
@@ -79,4 +86,16 @@ body{
 
 .content h2{
     text-align: center;
+}
+
+h1{
+  color: #f7acbb;
+}
+
+h2{
+  color: #fc7d99;
+} 
+
+h3{
+  color: #fd567a;
 }
