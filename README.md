@@ -30,7 +30,7 @@
 - [Chaine Youtube de Sakurai](https://www.youtube.com/@sora_sakurai_en/videos)
 - [Iwata asks](https://iwataasks.nintendo.com/)
 
-# **jeux ou il à aidé le dévelepement de manière consequente**
+## **jeux ou il à aidé le dévelepement de manière consequente**
 
 - Earthbound
 - Pokemon stadium
@@ -47,6 +47,11 @@ le boug aide les programmeur comme ça no problemo
 # **Mémo**
 
 ## commande pour les page :
+
+`
+bash buildpage.sh
+`
+
 `
 pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml README.md -o HTML/testn.html
 

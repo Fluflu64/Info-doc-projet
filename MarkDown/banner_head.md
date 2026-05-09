@@ -1,6 +1,6 @@
 # **Satoru IWATA**
-* [Acceuil](Acceuil.html)
-* [Pokémon](Pokémon.html)
-* [Kirby](Kirby.html)
-* [Autre](Autre.html)
 * [Source](Source.html)
+* [Autre](Autre.html)
+* [Kirby](Kirby.html)
+* [Pokémon](Pokémon.html)
+* [Acceuil](Acceuil.html)
