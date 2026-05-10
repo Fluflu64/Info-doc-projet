@@ -1,6 +1,6 @@
-# **Satoru IWATA**
+# **Satoru IWATA : Ses exploits de programmation**
 * [Source](Source.html)
-* [Autre](Autre.html)
-* [Kirby](Kirby.html)
+* [Autres](Autre.html)
+* [Consoles](console.html)
 * [Pokémon](Pokémon.html)
 * [Acceuil](Acceuil.html)

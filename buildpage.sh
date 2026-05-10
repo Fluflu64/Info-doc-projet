@@ -13,7 +13,7 @@ echo [■■■■■■########] 3/7
 pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/pokmon.md -o HTML/Pokémon.html
 clear
 echo [■■■■■■■■######] 4/7
-pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/poyo.md -o HTML/Kirby.html
+pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/console.md -o HTML/console.html
 clear
 echo [■■■■■■■■■■####] 5/7
 pandoc -f markdown -t html -s --template HTML/iwatemplate.html --metadata-file Metadata/metadata.yml MarkDown/autre.md -o HTML/Autre.html
