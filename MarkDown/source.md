@@ -1,7 +1,3 @@
-# **Conclusion**
-
-Satoru IWATA est un super hero du jeu vidéo qui nous à quitté beacoup trop tot...
-
 # **source**
 
 - [Wikipédia : Satoru IWATA](https://fr.wikipedia.org/wiki/Satoru_Iwata)

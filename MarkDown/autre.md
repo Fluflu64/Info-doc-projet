@@ -5,7 +5,7 @@
 
 # **Mother 2(Earthbound)**
 
-Au bout de cinq ans de production de Mother 2 prévu pour la Super Nintendo, l'équipe stagne du à un code posant certain problème. En 1994 il vient en aide en réécrivant tout le programme du jeu en seulement six mois. Pour rappel les jeux Nes, Super Nintendo et Game boy sont programmer en assembleur.
+Au bout de cinq ans de production de Mother 2 prévu pour la Super Nintendo, l'équipe stagne du à un code posant certain problèmes. En 1994 il vient en aide en réécrivant tout le programme du jeu en seulement six mois, alors que le jeu est déjà arriver à deux ans de developpement. Pour rappel les jeux Nes, Super Nintendo et Game boy sont programmer en assembleur.
 
 ![Boite de Earthbound](../Images/autre/EarthBound_Box.jpg "Boite de Earthbound")
 
